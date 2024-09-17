@@ -15,16 +15,10 @@ function SearchBar() {
 
   return (
     <div>
-      <form className="relative w-[190px]">
-        <div className="relative">
-          <input
-            onChange={(e) => handleSearch(e)}
-            type="search"
-            placeholder="Search..."
-            className="placeholder-goldSecondary w-full rounded-full bg-slate-800 p-2 text-xs focus:outline-none"
-          />
-          <button className="absolute right-1 top-1/2 -translate-y-1/2 rounded-full bg-slate-900 p-1">
-            <CiSearch className="text-gold" />
+      <form>
+        <div>
+          <button className="border-sandyBeige rounded-full border-2 bg-white p-1.5">
+            <CiSearch className="text-sandyBeige text-xl" />
           </button>
         </div>
         {activeSearch.length > 0 && (

@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         gold: "#eaa636",
         goldSecondary: "#f8d895",
+        grayLink: "#666666",
+        sandyBeige: "rgb(208, 175, 137)",
       },
     },
   },

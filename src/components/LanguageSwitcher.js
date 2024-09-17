@@ -19,7 +19,7 @@ function LanguageSwitcher() {
 
   return (
     <div className="relative flex items-center gap-2">
-      <MdOutlineLanguage className="text-xl" />
+      <MdOutlineLanguage className="text-sandyBeige text-xl" />
       <button onClick={toggleMenu} className="flex items-center text-sm">
         {selectedLanguage} <IoMdArrowDropdown className="text-xl" />
       </button>
